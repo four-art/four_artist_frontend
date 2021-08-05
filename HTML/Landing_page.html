@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>4RT - LandingPage</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+        <link rel="stylesheet" href="../CSS/landing_page.css">
+        <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic:400,700" rel="stylesheet">
+    </head>
+    <body>
+        <div class="landing_page">
+            <p class="landing_page_text1">
+                예술을 위한<br> 아티스트 소셜 네트워크
+            </p>
+            <hr class="landing_page_line1">
+            <img src="https://cdn.zeplin.io/609bad0ebfc228be481a98d2/assets/590A63B6-D48D-4C14-A08B-2DCA079DB32D.png" alt="" class="landing_page_logo">
+            <p class="landing_page_text2">
+                예술과 관련된 다양한 사람들을 만날 수 있는 <b>포아티스트</b>,<br>
+                다양한 아티스트와 소통하며 예술활동을 공유하고, 협업해보세요.
+            </p>
+            
+            <a href="javascript:;" class="btn_social" data-social="google"><img src="../img/Button-구글로그인@3x.png" alt="" ></a><br/><br>
+            <a href="javascript:;" class="btn_social" data-social="facebook"><img src="../img/Button-Facebook로그인@3x.png" alt="" ></a><br/><br>
+            <a href="javascript:;" class="btn_social" data-social="naver"><img src="../img/Button-네이버로그인@3x.png" alt="" ></a><br/><br>
+            <a href="javascript:;" class="btn_social" data-social="kakao"><img src="../img/Button-카카오로그인@3x.png" alt="" ></a><br/>
+            <script>
+                let socials = document.getElementsByClassName("btn_social");
+                for(let social of socials) {
+                    social.addEventListener('click', function(){
+                        let socialType = this.getAttribute('data-social');
+                        location.href="/oauth2/authorization/" + socialType;
+                    })
+                }
+            </script>
+
+            <hr class="landing_page_line2">
+            <p class="landing_page_text3">
+                회원가입 시 <a href="">이용약관</a> 
+                및
+                <a href="">개인정보처리방침</a>에 동의하게됩니다.
+            </p>
+            <img src="https://cdn.zeplin.io/609bad0ebfc228be481a98d2/assets/1C93569D-1141-4326-91EE-FADA88605E7E.svg" alt="" class="lading_page_globe">
+            <p class="landing_page_text4">
+                아티스트 소셜 네트워크
+            </p>
+            <p class="landing_page_text2">
+                음악, 무용, 미술, 전통, 다원 등 다양한 분야의 예술인들과<br>
+                예술활동을 공유하며 소통해보세요.
+            </p>
+            <div class="landing_page_img">
+                <img src="https://cdn.zeplin.io/609bad0ebfc228be481a98d2/assets/F573BC41-BC91-4F3C-A432-AC81E9D8603F.png" alt="">
+                <img src="https://cdn.zeplin.io/609bad0ebfc228be481a98d2/assets/F573BC41-BC91-4F3C-A432-AC81E9D8603F.png" alt="">
+                <img src="https://cdn.zeplin.io/609bad0ebfc228be481a98d2/assets/F573BC41-BC91-4F3C-A432-AC81E9D8603F.png" alt="">
+                <img src="https://cdn.zeplin.io/609bad0ebfc228be481a98d2/assets/F573BC41-BC91-4F3C-A432-AC81E9D8603F.png" alt="">
+                <img src="https://cdn.zeplin.io/609bad0ebfc228be481a98d2/assets/F573BC41-BC91-4F3C-A432-AC81E9D8603F.png" alt="">
+                <img src="https://cdn.zeplin.io/609bad0ebfc228be481a98d2/assets/F573BC41-BC91-4F3C-A432-AC81E9D8603F.png" alt="">
+                <img src="https://cdn.zeplin.io/609bad0ebfc228be481a98d2/assets/F573BC41-BC91-4F3C-A432-AC81E9D8603F.png" alt="">
+                <img src="https://cdn.zeplin.io/609bad0ebfc228be481a98d2/assets/F573BC41-BC91-4F3C-A432-AC81E9D8603F.png" alt="">
+                <img src="https://cdn.zeplin.io/609bad0ebfc228be481a98d2/assets/F573BC41-BC91-4F3C-A432-AC81E9D8603F.png" alt="">
+                <img src="https://cdn.zeplin.io/609bad0ebfc228be481a98d2/assets/F573BC41-BC91-4F3C-A432-AC81E9D8603F.png" alt="">
+                <img src="https://cdn.zeplin.io/609bad0ebfc228be481a98d2/assets/F573BC41-BC91-4F3C-A432-AC81E9D8603F.png" alt="">
+                <img src="https://cdn.zeplin.io/609bad0ebfc228be481a98d2/assets/F573BC41-BC91-4F3C-A432-AC81E9D8603F.png" alt="">
+                <img src="https://cdn.zeplin.io/609bad0ebfc228be481a98d2/assets/F573BC41-BC91-4F3C-A432-AC81E9D8603F.png" alt="">
+                <img src="https://cdn.zeplin.io/609bad0ebfc228be481a98d2/assets/F573BC41-BC91-4F3C-A432-AC81E9D8603F.png" alt="">
+            </div>
+        </div>
+        
+            
+
+            
+        
+    </body>
+</html>

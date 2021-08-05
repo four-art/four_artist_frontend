@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+}
+
+.landing_page{
+ 
+    top: 0;
+    width: 390px;
+    left: 50%;
+    position: relative;
+    transform: translateX(-50%);
+    background-color: rgb(170, 169, 169);
+    height: 1976px;
+}
+
+
+
+
+  
+.btn_social img{
+    margin-left: 85px;
+    margin-right: 85px;
+    width: 220px;
+}
+
+
+
