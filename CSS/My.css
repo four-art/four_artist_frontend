@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+}
+
+.my{
+ 
+    top: 0;
+    width: 390px;
+    left: 50%;
+    position: relative;
+    transform: translateX(-50%);
+    background-color: rgb(190, 190, 190);
+    height: 1878px;
+}
+
+.home_tab2{
+    display: flex;
+    justify-content: space-between;
+}
+.home_tab2 > a{
+    text-align: center;
+    text-decoration: none;
+}
