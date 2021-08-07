@@ -9,8 +9,8 @@
     left: 50%;
     position: relative;
     transform: translateX(-50%);
-    background-color: rgb(190, 190, 190);
-    height: 1878px;
+    background-color: rgb(107, 107, 107);
+    height: 844px;
 }
 
 .home_tab2{
@@ -20,4 +20,224 @@
 .home_tab2 > a{
     text-align: center;
     text-decoration: none;
+}
+
+.my_top{
+    display: flex;
+}
+.my_bottom{
+    display: flex;
+}
+
+.my_top_left_profile{
+    width: 170px;
+    height: 150px;
+    margin: 30px 10px 30px 20px;
+    border-radius: 8px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.my_top_left_profile:hover{
+    opacity: 0.87;
+}
+.my_top_left_profile_img{
+    display: flex;
+}
+.my_top_left_profile_img1{
+    width: 80px;
+    height: 80px;
+    margin: 0 19px 22px 0;
+}
+
+.my_top_left_profile_img2{
+    width: 30px;
+    height: 30px;
+    margin: 0px 0 71px 26px;
+    object-fit: contain;
+}
+
+.my_top_left_profile_text{
+    width: 100px;
+    height: 23px;
+    margin: 2px 19px 0 0;
+    font-family: 'Nanum Gothic';
+    font-size: 20px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #333;
+}
+
+.my_top_right_bookmark{
+    width: 170px;
+    height: 70px;
+    margin: 30px 0 0 0px;
+    border-radius: 8px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+    display: flex;
+}
+.my_top_right_bookmark:hover{
+    opacity: 0.87;
+}
+
+.my_top_right_bookmark > p{
+    width: 94px;
+    height: 23px;
+    font-family: 'Nanum Gothic';
+    font-size: 20px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #333;
+    margin-top: 21px;
+}
+
+.my_top_right_bookmark > img{
+    width: 19px;
+    height: 25px;
+    margin: 0 20px 0 0;
+    object-fit: contain;
+    margin-top: 21px;
+    margin-left: 15px;
+
+}
+
+.my_top_right_logout{
+    width: 170px;
+    height: 70px;
+    margin: 10px 0 0 0px;
+    border-radius: 8px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+    display: flex;
+}
+.my_top_right_logout:hover{
+    opacity: 0.87;
+}
+.my_top_right_logout > img{
+    width: 19px;
+    height: 25px;
+    margin: 0 20px 0 0;
+    object-fit: contain;
+    margin-top: 21px;
+    margin-left: 15px;
+
+}
+.my_top_right_logout > p{
+    width: 94px;
+    height: 23px;
+    font-family: 'Nanum Gothic';
+    font-size: 20px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #333;
+    margin-top: 21px;
+
+}
+
+.my_middle_button{
+    border: none;
+    cursor: pointer;
+    margin-left: 5px;
+    background-color: #fff;
+}
+.my_middle_button:hover{
+    opacity: 0.87;
+}
+
+.my_bottom_left{
+ 
+    border-radius: 8px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color: #fff;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.my_bottom_left:hover{
+    opacity: 0.87;
+}
+
+
+
+.my_bottom_left_button > img{
+    width: 170px;
+    height: 180px;
+    margin-top: 50px;
+    border-radius: 0 0 0 8px;   
+    position: absolute;
+    margin-left: -6px;
+    
+}
+
+.my_bottom_left_button > p{
+    width: 100px;
+    height: 50px;
+    font-family: 'Nanum Gothic';
+    font-size: 20px;
+    font-weight: 900;
+    text-align: left;
+    color: #333;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.my_bottom_left_button{
+    width: 170px;
+    height: 230px;
+    border-radius: 8px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+    display: flex;
+}
+
+.my_bottom_right{
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.my_bottom_right_button{
+    width: 170px;
+    height: 70px;
+    border-radius: 8px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    margin-top: 10px;
+}
+
+.my_bottom_right_button >p{
+    width: 155px;
+    height: 23px;
+    font-family: 'Nanum Gothic';
+    font-size: 20px;
+    font-weight: 800;
+  
+    text-align: left;
+    color: #333;
+    margin-top: 10px;
+}
+
+.my_bottom_right_button:hover{
+    opacity: 0.87;
 }

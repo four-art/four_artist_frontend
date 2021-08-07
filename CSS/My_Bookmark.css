@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+}
+
+.my_bookmark{
+ 
+    top: 0;
+    width: 390px;
+    left: 50%;
+    position: relative;
+    transform: translateX(-50%);
+    background-color: rgb(131, 131, 131);
+    height: 1878px;
+}
