@@ -13,14 +13,6 @@
     height: 1384px;
 }
 
-.home_tab2{
-    display: flex;
-    justify-content: space-between;
-}
-.home_tab2 > a{
-    text-align: center;
-    text-decoration: none;
-}
 
 .home_story{
     display: flex;

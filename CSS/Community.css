@@ -13,14 +13,7 @@
     height: 1878px;
 }
 
-.home_tab2{
-    display: flex;
-    justify-content: space-between;
-}
-.home_tab2 > a{
-    text-align: center;
-    text-decoration: none;
-}
+
 
 .community_filter > img{
     width: 22px;

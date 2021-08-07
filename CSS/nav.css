@@ -1,0 +1,12 @@
+.nav2{
+    display: flex;
+    justify-content: space-between;
+}
+.nav2 > a{
+    text-align: center;
+    text-decoration: none;
+}
+
+.nav_logo{
+    width: 100px;
+}
