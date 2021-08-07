@@ -21,3 +21,10 @@
     text-align: center;
     text-decoration: none;
 }
+
+.my_top{
+    display: flex;
+}
+.my_bottom{
+    display: flex;
+}
