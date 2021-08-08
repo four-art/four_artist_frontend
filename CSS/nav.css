@@ -1,0 +1,46 @@
+.nav1{
+    display: flex;
+}
+
+.nav_logo{
+    width: 78px;
+    height: 30px;
+}
+
+.nav_search{
+    width: 19.2px;
+    height: 20px;
+}
+
+.nav1_search_a{
+    text-decoration: none;
+    margin: 15px 0 10px 250px;
+}
+
+.nav1_logo_a{
+    text-decoration: none;
+    margin: 10px 0 10px 20px;
+}
+.nav2{
+    display: flex;
+    justify-content: space-evenly;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    margin-bottom: 10px;
+}
+.nav2 > a{
+    text-decoration: none;
+    width: 53px;
+    height: 16px;
+    font-family: 'Nanum Gothic';
+    font-size: 14px;
+    font-weight: 900;
+    text-align: center;
+    color: #000;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+
+
+
+
