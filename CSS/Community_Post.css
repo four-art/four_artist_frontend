@@ -1,0 +1,155 @@
+
+*{
+    margin: 0;
+}
+.community_post{
+    top: 0;
+    width: 390px;
+    left: 50%;
+    position: relative;
+    transform: translateX(-50%);
+    background-color: rgb(255, 255, 255);
+    height: 844px;
+}
+::-webkit-scrollbar{width:2px;height:2px;}
+::-webkit-scrollbar-button{width:2px;height:2px;}
+
+
+
+.community_post_top{
+    display: flex;
+}
+
+.community_post_top > a{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.community_post_top > p{
+    width: 110px;
+    height: 25px;
+    margin-top: 15px;
+    margin-left: 90px;
+    margin-right: 140px;
+    font-family: 'Nanum Gothic';
+    font-size: 22px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000;
+}
+
+.community_post_select{
+    display: flex;
+    margin-top: 26px;
+}
+
+.community_post_select > p{
+    width: 120px;
+    height: 19px;
+    font-family: 'Nanum Gothic';
+    margin-left: 20px;
+    font-size: 16px;
+    font-weight: normal;
+  
+    text-align: left;
+    color: #000;
+}
+
+.community_post_select > a{
+    margin-left: 220px;
+}
+
+.community_post_title_text1{
+    width: 23px;
+    height: 14px;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-family: 'Nanum Gothic';
+    font-size: 12px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000;
+}
+
+.community_post_title_input1{
+    margin-left: 17px;
+    margin-top: 5px;
+    border: none;
+    width: 350px;
+    height: 19px;
+
+}
+
+.community_post_content_input2{
+    margin-left: 17px;
+    margin-top: 5px;
+    border: none;
+    width: 350px;
+    height: 505px;
+
+}
+
+.community_post_title_input1::placeholder{
+    font-family: 'Nanum Gothic';
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #aaa;
+}
+
+.community_post_title_input1:focus{
+    outline: 1px solid gray;
+}
+
+.community_post_content_input2::placeholder{
+    font-family: 'Nanum Gothic';
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #aaa;
+}
+
+.community_post_content_input2:focus{
+    outline: 1px solid gray;
+}
+
+.community_post_button_btn{
+    width: 350px;
+    height: 53px;
+    margin: 30px 20px 0;
+    padding: 15px 116px;
+    border-radius: 8px;
+    background-color: #aaa;
+    border: none;
+    cursor: pointer;
+}
+
+.community_post_button_btn > p{
+    width: 120px;
+    height: 23px;
+    font-family: 'Nanum Gothic';
+    font-size: 20px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
+}
