@@ -23,8 +23,11 @@
 }
 .community_filter{
     display: flex;
-    overflow: hidden;
+    overflow: auto; 
+    white-space: nowrap; 
 }
+::-webkit-scrollbar{width:2px;height:2px;}
+::-webkit-scrollbar-button{width:2px;height:2px;}
 
 .community_filter > button{
     height: 25px;
@@ -33,6 +36,7 @@
     margin-top: 9px;
     border: none;
     margin-right: 20px;
+    
 }
 .community_filter >button > p{
     width: 53px;

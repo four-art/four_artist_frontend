@@ -16,6 +16,8 @@
 
 .home_story{
     display: flex;
+    overflow: auto;
+    white-space: nowrap;
 }
 .home_story > img{
     width: 89.9px;
@@ -23,6 +25,8 @@
     border-radius: 5px;
     box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.5);
     cursor: pointer;
+    margin-left: 20px;
+    margin-right: -10px;
 }
 
 .home_4rt{
@@ -63,13 +67,19 @@
 
 .home_partner{
     display: flex;
+   
 }
 
 .home_partner_logo{
     display: flex;
+    overflow: auto;
+    white-space: nowrap;
 }
 
 .home_advertise >img{
     width: 390px;
     height: 100px;
 }
+
+::-webkit-scrollbar{width:2px;height:2px;}
+::-webkit-scrollbar-button{width:2px;height:2px;}
