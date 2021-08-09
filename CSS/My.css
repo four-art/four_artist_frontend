@@ -234,3 +234,6 @@
 .my_bottom_right_button:hover{
     opacity: 0.87;
 }
+
+::-webkit-scrollbar{width:2px;height:2px;}
+::-webkit-scrollbar-button{width:2px;height:2px;}
