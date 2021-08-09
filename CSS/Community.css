@@ -15,6 +15,7 @@
 
 
 
+
 .community_filter > img{
     width: 60px;
     margin-top: -5px;
@@ -58,15 +59,19 @@
   box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.16);
   background-color: #fff;
   margin-left: 20px;
+  margin-bottom: 30px;
 }
 
 .community_post_profile{
     display: flex;
+    margin-left: 15px;
+    margin-top: 29px;
 }
 
 .community_post_profile_reply_img{
     width: 15px;
     height: 15px;
+    margin-top: 25px;
 }
 
 .community_advertise > img{
@@ -74,4 +79,108 @@
   height: 100px;
   margin-left: 20px;
   margin-bottom: 20px;
+}
+
+.community_post_topic{  
+    width: 30px;
+    height: 14px;
+    margin-left: 15px;
+    font-family: 'Nanum Gothic';
+    font-size: 12px;
+    font-weight: bold;
+    text-align: left;
+    color: #555;
+    padding-top: 15px;
+}
+.community_post_topic_ground{
+    display: flex;
+}
+
+.community_post_topic_ground > img{
+    margin-left: 262px;
+    cursor: pointer;
+}
+.community_post_title{
+    width: 330px;
+    font-family: 'Nanum Gothic';
+    font-size: 16px;
+    font-weight: bold;
+  
+    text-align: left;
+    color: #000;
+    margin-left: 10px;
+    margin-top: 7px;
+}
+
+.community_post_content{
+    width: 330px;
+    font-family: 'Nanum Gothic';
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.29;
+    letter-spacing: 0.28px;
+    text-align: left;
+    color: #333;
+    margin-top: 10px;
+    margin-left: 10px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.community_post_profile_name1{
+    width: 250px;
+    height: 16px;
+    margin: 5px 0 5px 15px;
+    font-family: 'Nanum Gothic';
+    font-size: 14px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #333;
+}
+
+.community_post_profile_name2{
+    width: 250px;
+    height: 14px;
+    margin: 5px 0 0 15px;
+    font-family: 'Nanum Gothic';
+    font-size: 11px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.22px;
+    text-align: left;
+    color: #333;
+    display: flex;
+}
+.community_post_profile_reply{
+    height: 14px;
+    font-family: 'Nanum Gothic';
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: right;
+    color: #333;
+    margin-top: 23.5px;
+    margin-left: 2px;
+}
+
+
+
+
+.community_post_pencil{
+    position: fixed;
+    top: 704px;
+    left: 590px;
+    
 }
