@@ -1,0 +1,103 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+.filter{
+    width: 390px;
+    height: 844px;
+    left: 50%;
+    position: relative;
+    transform: translateX(-50%);
+}
+
+.filter_title > p{
+    width: 131px;
+    height: 25px;
+    margin: 14.5px 130px 0px 130px;
+    font-family: 'Nanum Gothic';
+    font-size: 22px;
+    font-weight: bold;
+
+    text-align: center;
+    color: #000;
+}
+
+
+.filter_text1 > p{
+    width: 242px;
+    height: 16px;
+    margin: 21px 128px 0px 20px;
+    font-family: 'Nanum Gothic';
+    font-size: 14px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000;
+}
+.filter_flex1{
+    display: flex;
+    margin-left: 20px;
+    margin-top: 15px;
+
+}
+
+.filter_flex1 > p{
+    margin-left: 11px;
+    width: 55px;
+    height: 19px;
+    font-family: 'Nanum Gothic';
+    font-size: 16px;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000;
+}
+.filter_flex2{
+    margin-top: 10px;
+}
+.filter_card{
+    display: inline-block;
+    width: 110px;
+    height: 110px;
+    margin-right: 5px;
+    margin-bottom: 20px;
+}
+.filter_card > img{
+    width: 110px;
+    margin-left: 20px;
+}
+
+.filter_card_hello{
+    background-image: url('https://cdn.zeplin.io/609bad0ebfc228be481a98d2/assets/CEC5428A-C94A-4E71-8B0C-F16F9DFD44BD.svg');
+    width: 19px;
+    height: 25px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+    cursor: pointer;
+}
+
+.filter_button > input{
+    width: 350px;
+    height: 53px;
+    border-radius: 8px;
+    margin-top: 160px;
+    margin-left: 20px;
+    background-color: #000;
+    border: none;
+    cursor: pointer;
+    font-family: 'Nanum Gothic';
+  font-size: 20px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+}
