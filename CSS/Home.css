@@ -2,6 +2,7 @@
     margin: 0;
 }
 
+
 .home{
  
     top: 0;
@@ -24,6 +25,7 @@
     margin-top: 10px;
     margin-bottom: 5px;
     margin-right: -10px;
+    cursor: pointer;
 }
 .home_story_img > img{
     width: 89.9px;
@@ -51,6 +53,24 @@
     padding: 8px 0px 15px 4px;
     border-radius: 0px 0px 5px 5px;
     background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), #222);
+}
+.home_story_img > h1 {
+    width: 86px;
+    height: 14px;
+    font-family: 'Nanum Gothic';
+    font-size: 12px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #fff;
+    margin-left: 20px;
+    margin-top: -40px;
+    position: relative;
+    padding: 8px 0px 15px 4px;
+    border-radius: 0px 0px 5px 5px;
 }
 
 .home_4rt{
