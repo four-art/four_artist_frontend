@@ -10,6 +10,7 @@
     transform: translateX(-50%);
     background-color: rgb(255, 255, 255);
 }
+
 ::-webkit-scrollbar{width:2px;height:2px;}
 ::-webkit-scrollbar-button{width:2px;height:2px;}
 
