@@ -9,7 +9,7 @@
     left: 50%;
     position: relative;
     transform: translateX(-50%);
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(165, 165, 165);
     height: 900px;
 }
 
@@ -23,7 +23,7 @@
 .my_profile_edit_header_cancle{
     text-decoration: none;
     color: black;
-    width: 32px;
+    width: 40px;
     height: 19px;
     font-family: 'Nanum Gothic';
     font-size: 16px;
@@ -38,9 +38,9 @@
 }
 
 .my_profile_edit_header_title{
-    width: 80px;
+    width: 90px;
     height: 19px;
-    margin: 20px 0px 30px 105px;
+    margin: 20px 0px 30px 90px;
     font-family: 'Nanum Gothic';
     font-size: 16px;
     font-weight: bold;
@@ -53,8 +53,8 @@
 }
 
 .my_profile_edit_header_complete{
-    height: 19px;
-    margin: 20px 0px 0px 100px;
+    height: 25px;
+    margin: 20px 0px 0px 80px;
 
     font-family: 'Nanum Gothic';
     font-size: 16px;
@@ -105,9 +105,9 @@
 
 .my_profile_edit_name > input{
     border: 1px solid rgb(226, 226, 226);
-    width: 350px;
+    width: 330px;
     height: 28px;
-    margin: 15px 0 10px 20px;
+    margin: 15px 0 10px 30px;
     font-family: 'Nanum Gothic';
     font-size: 24px;
     font-weight: 900;
@@ -118,9 +118,9 @@
 }
 
 .my_profile_edit_hashtag > input{
-    width: 350px;
+    width: 330px;
     height: 17px;
-    margin-left: 20px;
+    margin-left: 30px;
     margin-top: 10px;
     font-family: 'Nanum Gothic';
     font-size: 15px;
@@ -138,7 +138,7 @@
 .my_profile_edit_insta_connect{
     display: flex;
     margin-top: 10px;
-    margin-left: 20px;
+    margin-left: 30px;
 }
 
 #my_profile_edit_insta_connect_nickname{
@@ -157,7 +157,7 @@
 .my_profile_edit_insta_connect > input{
     width: 100px;
     height: 30px;
-    margin: 0 0 0 69.5px;
+    margin: 0 0 0 51.5px;
 }
 
 .my_profile_edit_line1{
@@ -170,9 +170,9 @@
 }
 
 #test{
-    width: 350px;
+    width: 330px;
     height: 122px;
-    margin-left: 20px;
+    margin-left: 30px;
     border: 1px solid rgb(226, 226, 226);
     margin-top: 14px;
     font-family: 'Nanum Gothic';
@@ -187,7 +187,7 @@
 }
 
 #test_cnt{
-    margin-left: 320px;
+    margin-left: 310px;
     width: 50px;
     height: 14px;
     margin-top: -20px;
