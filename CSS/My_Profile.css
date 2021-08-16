@@ -9,9 +9,126 @@
     left: 50%;
     position: relative;
     transform: translateX(-50%);
-    background-color: rgb(190, 190, 190);
-    height: 1878px;
+    background-color: rgb(161, 161, 161);
+    height: auto;
 }
 
 ::-webkit-scrollbar{width:2px;height:2px;}
 ::-webkit-scrollbar-button{width:2px;height:2px;}
+
+
+.my_profile_avatar_img{
+    border-radius: 100%;
+    width: 80px;
+    height: 80px;
+    margin-top: 25px;
+    margin-left: 20px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+}
+
+.my_profile_insta_logo_img{
+    position: absolute;
+    margin-top: -30px;
+    margin-left: 80px;
+}
+
+#my_profile_nickname{
+    width: 68px;
+    height: 28px;
+    font-family: 'Nanum Gothic';
+    font-size: 24px;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: rgb(0, 0, 0);
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+#my_profile_hashtag{
+    width: 350px;
+    height: 17px;
+    font-family: 'Nanum Gothic';
+    font-size: 15px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: rgb(0, 0, 0);
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.my_profile_line1{
+    width: 350px;
+    height: 2px;
+    background-color: #ededed;
+    margin-left: 20px;
+    margin-top: 9px;
+    border: none;
+}
+
+#my_profile_intro{
+    width: 350px;
+    height: 14px;
+    font-family: 'Nanum Gothic';
+    font-size: 12px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: rgb(0, 0, 0);
+    margin-left: 20px;
+    margin-top: 14px;
+}
+
+.my_profile_modify{
+  width: 350px;
+  height: 30px;
+  border-radius: 5px;
+  border: solid 1px #ededed;
+  background-color: #fff;
+  margin-top: 46px;
+  margin-left: 20px;
+  cursor: pointer;
+  font-family: 'Nanum Gothic';
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #333;
+}
+
+.my_profile_text1{
+    width: 53px;
+    height: 21px;
+    margin: 140px 319px 10px 20px;
+    font-family: 'Nanum Gothic';
+    font-size: 18px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000;
+}
+
+.my_profile_line2{
+    width: 350px;
+    height: 2px;
+    margin: 10px 20px 24px;
+    background-color: #000;
+    border: none;
+}
+

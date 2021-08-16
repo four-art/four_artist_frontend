@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+}
+
+.my_profile_edit{
+ 
+    top: 0;
+    width: 390px;
+    left: 50%;
+    position: relative;
+    transform: translateX(-50%);
+    background-color: rgb(255, 255, 255);
+    height: 900px;
+}
+
+::-webkit-scrollbar{width:2px;height:2px;}
+::-webkit-scrollbar-button{width:2px;height:2px;}
+
+.my_profile_edit_header{
+    display: flex;
+}
+
+.my_profile_edit_header_cancle{
+    text-decoration: none;
+    color: black;
+    width: 32px;
+    height: 19px;
+    font-family: 'Nanum Gothic';
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.my_profile_edit_header_title{
+    width: 80px;
+    height: 19px;
+    margin: 20px 0px 30px 105px;
+    font-family: 'Nanum Gothic';
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000;
+}
+
+.my_profile_edit_header_complete{
+    height: 19px;
+    margin: 20px 0px 0px 100px;
+
+    font-family: 'Nanum Gothic';
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: right;
+    color: #338ae2;
+    border: none;
+    cursor: pointer;
+}
+
+
+/*프로필 사진 받아오는 css*/
+#profile_pt{
+    opacity: 0;
+    z-index: 100;
+    margin-top: 50px;
+    position: absolute;
+    margin-left: 20px;
+    
+}
+
+.my_profile_edit_plus{
+    z-index: 99;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 80px;
+
+}
+#View_area{
+    position: absolute;
+    margin-top: -84px;
+    margin-left: 20px;
+
+}
+.trick{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-left: 20px;
+
+}
+/*프로필 사진 받아오는 css*/
+
+
+.my_profile_edit_name > input{
+    border: 1px solid rgb(226, 226, 226);
+    width: 350px;
+    height: 28px;
+    margin: 15px 0 10px 20px;
+    font-family: 'Nanum Gothic';
+    font-size: 24px;
+    font-weight: 900;
+    text-align: left;
+    color: #333;
+    
+
+}
+
+.my_profile_edit_hashtag > input{
+    width: 350px;
+    height: 17px;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-family: 'Nanum Gothic';
+    font-size: 15px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #333;
+    border: 1px solid rgb(226, 226, 226);
+
+}
+
+.my_profile_edit_insta_connect{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+#my_profile_edit_insta_connect_nickname{
+        width: 150px;
+        height: 0px;
+        margin-top: 4px;
+        margin-left: 5px;
+        font-family: 'Nanum Gothic';
+        font-size: 14px;
+        font-weight: bold;
+     
+        text-align: left;
+        color: #333;
+}
+
+.my_profile_edit_insta_connect > input{
+    width: 100px;
+    height: 30px;
+    margin: 0 0 0 69.5px;
+}
+
+.my_profile_edit_line1{
+    width: 354px;
+    height: 2px;
+    margin-left: 20px;
+    margin-top: 14px;
+    background-color: #ededed;
+    border: none;
+}
+
+#test{
+    width: 350px;
+    height: 122px;
+    margin-left: 20px;
+    border: 1px solid rgb(226, 226, 226);
+    margin-top: 14px;
+    font-family: 'Nanum Gothic';
+    font-size: 12px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #333;
+}
+
+#test_cnt{
+    margin-left: 320px;
+    width: 50px;
+    height: 14px;
+    margin-top: -20px;
+    position: absolute;
+    font-family: 'Nanum Gothic';
+    font-size: 12px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: right;
+    color: #aaa;
+}
