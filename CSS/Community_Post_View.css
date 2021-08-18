@@ -1,0 +1,307 @@
+
+*{
+    margin: 0;
+}
+.community_post_view{
+    top: 0;
+    width: 390px;
+    left: 50%;
+    position: relative;
+    transform: translateX(-50%);
+    background-color: rgb(255, 255, 255);
+    height: 844px;
+    background-image: url('https://cdn.zeplin.io/609bad0ebfc228be481a98d2/assets/F95CFA80-1C41-42BE-8109-B9D1721A7308.svg');
+    background-repeat: no-repeat;
+}
+::-webkit-scrollbar{width:2px;height:2px;}
+::-webkit-scrollbar-button{width:2px;height:2px;}
+
+.community_post_view_img1{
+    margin-left: 330px;
+    margin-top: 15px;
+}
+
+.community_post_view_title{
+    width: 350px;
+    margin: 25px 0 32px 20px;
+    font-family: 'Nanum Gothic';
+    font-size: 28px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+    text-align: left;
+    color: #333;
+}
+
+.community_post_view_hashtag1{
+    width: 130px;
+    height: 16px;
+    margin: 32px 0px 10px 235px;
+    font-family: 'Nanum Gothic';
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.57;
+    letter-spacing: normal;
+    text-align: left;
+    color: #333;
+}
+
+.community_post_view_div1{
+    display: flex;
+    margin-left: 261px;
+}
+.community_post_view_div1 > img{
+    margin-right: 10px;
+    
+}
+.community_post_view_bookmark{
+    margin-right: 10px;
+    height: 14px;
+    font-family: NanumGothic;
+    font-size: 12px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: right;
+    color: #333;
+}
+.community_post_view_read1{
+    margin-right: 5px;
+    height: 14px;
+    font-family: NanumGothic;
+    font-size: 12px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: right;
+    color: #333;
+}
+.community_post_view_read2{
+    height: 14px;
+    font-family: NanumGothic;
+    font-size: 12px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: right;
+    color: #333;
+}
+
+.community_post_view_content1{
+        width: 350px;
+        font-family: 'Nanum Gothic';
+        font-size: 15px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.33;
+        letter-spacing: normal;
+        text-align: left;
+        color: #333;
+        margin-left: 20px;
+        margin-top: 24px;
+        margin-bottom: 29px;
+}
+.community_post_view_line{
+    width: 390px;
+    background-color: #ededed;
+    height: 1px;
+    border: none;
+    
+}
+.community_post_view_profile{
+    display: flex;
+    margin-top: 16px;
+    margin-bottom: 9px;
+}
+
+.community_post_view_profile_img1{
+    border-radius: 50%;
+    margin-left: 33.2px;
+}
+
+.community_post_view_profile_name_text1{
+    margin-left: 17.9px;
+    width: 250px;
+    height: 21px;
+    font-family: 'Nanum Gothic';
+    font-size: 18px;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #333;
+    margin-bottom: 2px;
+}
+
+.community_post_view_profile_name_text2{
+    margin-left: 17.9px;
+    width: 295px;
+    height: 17px;
+    font-family: 'Nanum Gothic';
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #333;
+}
+
+.community_post_view_profile_insta{
+        margin-left: -30px;
+        margin-top: -20px;
+}
+
+.community_post_view_report{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    width: 110px;
+    height: 19px;
+    font-family: 'Nanum Gothic';
+    font-size: 16px;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #333;
+}
+
+.community_post_view_comment_input_div{
+    width: 350px;
+    height: 130px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 25px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color: #fff;
+}
+#community_post_view_comment_btn[type="submit"]{
+    cursor: pointer;
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 300px;
+    
+    border: none;
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+    background-repeat: no-repeat;
+    background-image: url('https://cdn.zeplin.io/609bad0ebfc228be481a98d2/assets/BD4C74C1-6FC6-49B1-8531-06003DC91D29.svg');
+}
+
+#community_post_view_comment_input{
+    width: 275px;
+    height: 96px;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 17px;
+    font-family: NanumGothic;
+    font-size: 14px;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+    text-align: left;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    outline: none;
+}
+
+
+.community_post_view_comments{
+    width: 350px;
+    height: 114px;
+    margin-left: 20px;
+    margin-top: 30px;
+    border-radius: 8px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color: #fff;
+}
+
+.community_post_view_comments_div{
+    display: flex;
+}
+
+.community_post_view_comments_div > img{
+    margin-left: 10px;
+    margin-top: 8px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.community_post_view_comments_div_text1{
+    width: 285px;
+    height: 16px;
+    margin: 13px 0 3px 5px;
+    font-family: 'Nanum Gothic';
+    font-size: 14px;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #333;
+}
+.community_post_view_comments_div_text2{
+    width: 285px;
+    height: 14px;
+    margin: 0px 0 0 5px;
+    font-family: 'Nanum Gothic';
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #333;
+}
+
+.community_post_view_comments_div_text3{
+    width: 328px;
+    font-family: 'Nanum Gothic';
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+    text-align: left;
+    color: #333;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.community_post_view_comments > a{
+    text-decoration: none;
+    color: black;
+    width: 53px;
+    font-family: 'Nanum Gothic';
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    margin-left: 287px;
+}
