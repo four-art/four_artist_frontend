@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+}
+
+.my_bookmark_artist{
+ 
+    top: 0;
+    width: 390px;
+    left: 50%;
+    position: relative;
+    transform: translateX(-50%);
+    background-color: rgb(255, 255, 255);
+    height: 1878px;
+}
+::-webkit-scrollbar{width:2px;height:2px;}
+::-webkit-scrollbar-button{width:2px;height:2px;}
+.my_bookmark_artist_div{
+    display: flex;
+}
+.my_bookmark_artist_div > a{
+    margin-left: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.my_bookmark_artist_title{
+    width: 67px;
+    height: 25px;
+    margin: 18px 14px 27px 114px;
+    font-family: 'Nanum Gothic';
+    font-size: 22px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000;
+}
+.my_bookmark_artist_list{
+    border: none;
+    width: 350px;
+    height: 70px;
+    margin: 0px 0 20px 20px;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color: #fff;
+    cursor: pointer;
+}
+.my_bookmark_artist_list_div1{
+    display: flex;
+}
+
+.my_bookmark_artist_list_text1{
+    width: 245px;
+    height: 19px;
+    margin: 9px 0 5px 5px;
+    font-family: 'Nanum Gothic';
+    font-size: 16px;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #333;
+}
+
+.my_bookmark_artist_list_text2{
+    width: 275px;
+    height: 17px;
+    margin: 3px 0 0 5px;
+    font-family: 'Nanum Gothic';
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #333;
+}
+
+.my_bookmark_artist_list_insta{
+    position: absolute;
+    margin-left: 300px;
+}
