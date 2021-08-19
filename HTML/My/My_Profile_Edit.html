@@ -13,10 +13,16 @@
     <body>
        <div class="my_profile_edit">
 
+        <form action="">
+
             <div class="my_profile_edit_header">
                 <a href="./My_Profile.html" role="button" class="my_profile_edit_header_cancle">취소</a>
                 <p class="my_profile_edit_header_title">프로필 편집</p>
-                <button type="button" class="my_profile_edit_header_complete" id="btn-my_profile_edit_header_complete">완료</button>
+                    <button type="submit" class="my_profile_edit_header_complete" id="btn-my_profile_edit_header_complete">
+                        <p>완료</p>
+                    </button>
+                    
+                
             </div>
 
             <!--진짜 받아오는 파일 선택-->
@@ -31,13 +37,22 @@
             <!--받아오는 사진-->
             <div id='View_area'></div>
 
-            <div class="my_profile_edit_name">
-                <input type="text" value="">
-            </div>
 
-            <div class="my_profile_edit_hashtag">
-                <input type="text" value="">
-            </div>
+            
+                <div class="my_profile_edit_name">
+                    <input required="" type="text" value="">
+                </div>
+        </form>
+            
+            
+            <form action="../My/My_Profile_Hashtag.html" method="GET">
+                <div class="my_profile_edit_hashtag">
+                    <button type="submit" value="">
+                        프로필해시태그 추가하기
+                    </button>
+                </div>
+            </form>
+            
 
             <div class="my_profile_edit_insta_connect">
                 <img src="https://cdn.zeplin.io/609bad0ebfc228be481a98d2/assets/B3567984-6D73-48E1-B918-72CDB7C4E1DA.svg" alt="">
@@ -47,13 +62,13 @@
 
             <hr class="my_profile_edit_line1">
 
-            <textarea id="test" name="test"></textarea>
+            <textarea required="" id="test" name="test"></textarea>
             <div id="test_cnt">0 / 100</div>
 
 
             
             
-            
+
        </div>
        
        <script src="../../JS/My_Profile_Text_Count.js"></script>

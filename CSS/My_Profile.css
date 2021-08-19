@@ -132,3 +132,15 @@
     border: none;
 }
 
+.my_profile_post{
+    margin-left: 20px;
+    padding-bottom: 150px;
+    border: none;
+    width: 350px;
+    height: 123px;
+    border-radius: 8px;
+    box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.16);
+    background-color: #fff;
+    cursor: pointer;
+}
+

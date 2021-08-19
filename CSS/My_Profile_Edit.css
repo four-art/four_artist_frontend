@@ -105,7 +105,7 @@
 
 .my_profile_edit_name > input{
     border: 1px solid rgb(226, 226, 226);
-    width: 350px;
+    width: 343.9px;
     height: 28px;
     margin: 15px 0 10px 20px;
     font-family: 'Nanum Gothic';
@@ -117,9 +117,9 @@
 
 }
 
-.my_profile_edit_hashtag > input{
+.my_profile_edit_hashtag > button{
     width: 350px;
-    height: 17px;
+    height: 27px;
     margin-left: 20px;
     margin-top: 10px;
     font-family: 'Nanum Gothic';
@@ -131,6 +131,7 @@
     letter-spacing: normal;
     text-align: left;
     color: #333;
+    cursor: pointer;
     border: 1px solid rgb(226, 226, 226);
 
 }
