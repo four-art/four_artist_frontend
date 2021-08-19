@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+}
+
+.my_bookmark_channel{
+ 
+    top: 0;
+    width: 390px;
+    left: 50%;
+    position: relative;
+    transform: translateX(-50%);
+    background-color: rgb(194, 194, 194);
+    height: 1878px;
+}
+::-webkit-scrollbar{width:2px;height:2px;}
+::-webkit-scrollbar-button{width:2px;height:2px;}
+.my_bookmark_channel_div{
+    display: flex;
+}
+.my_bookmark_channel_div > a{
+    margin-left: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.my_bookmark_channel_title{
+    width: 67px;
+    height: 25px;
+    margin: 18px 14px 27px 114px;
+    font-family: 'Nanum Gothic';
+    font-size: 22px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000;
+}

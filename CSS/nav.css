@@ -40,6 +40,29 @@
     margin-bottom: 15px;
 }
 
+.my_bookmark_nav{
+    display: flex;
+    justify-content: space-between;
+
+}
+.my_bookmark_nav >a {
+    width: 68px;
+    height: 21px;
+    margin-left: 10px;
+    margin-right: 7px;
+    margin-bottom: 30px;
+    text-decoration: none;
+    font-family: 'Nanum Gothic';
+    font-size: 18px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000;
+}
+
 
 
 
