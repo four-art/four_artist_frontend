@@ -10,8 +10,97 @@
     position: relative;
     transform: translateX(-50%);
     background-color: rgb(190, 190, 190);
-    height: 1878px;
+    height: 878px;
 }
 
 ::-webkit-scrollbar{width:2px;height:2px;}
 ::-webkit-scrollbar-button{width:2px;height:2px;}
+
+
+.teamchannel_header{
+    display: flex;
+    margin-left: 20px;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.teamchannel_header >button{
+    margin-right: 20px;
+    height: 26px;
+    font-family: 'Nanum Gothic';
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000;
+    border-radius: 5px;
+    background-color: white;
+    border: solid 1px #ededed;
+}
+.teamchannel_header >button > a{
+    text-decoration: none;
+    color: #000;
+}
+.teamchannel_card{
+    width: 350px;
+    height: 223px;
+    margin: 20px 20px 30px;
+    border-radius: 8px;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.13);
+    background-color: #fff;
+}
+
+.teamchannel_card_header{
+    width: 350px;
+    height: 110px;
+    border-radius: 8px 8px 0px 0px;
+}
+.teamchannel_card_teamname{
+    width: 330px;
+    height: 19px;
+    margin: 5px 10px 9.5px;
+    font-family: 'Nanum Gothic';
+    font-size: 16px;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000;
+}
+.teamchannel_card_line{
+    width: 350px;
+    height: 1px;
+    margin: 9.5px 0 4.5px;
+    background-color: #ededed;
+    border: none;
+}
+
+.teamchannel_card_members{
+    width: 52px;
+    height: 14px;
+    margin: 4.5px 288px 5px 10px;
+    font-family: 'Nanum Gothic';
+    font-size: 12px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000;
+}
+
+.teamchannel_card_profile{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.teamchannel_card_flex{
+    display: flex;
+}

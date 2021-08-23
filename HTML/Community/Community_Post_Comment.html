@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>4RT - Community_Post_Comment</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+        <link rel="stylesheet" href="../../CSS/Community_Post_Comment.css">
+        <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic:400,700" rel="stylesheet">
+        
+    </head>
+    <body>
+        <div class="community_post_comment">
+            <div class="community_post_comment_header">
+                <p class="community_post_comment_header_text1">댓글</p>
+                <div class="dropdown">
+                    <button class="dropbtn"><img src="https://cdn.zeplin.io/609bad0ebfc228be481a98d2/assets/82538087-699D-4816-B213-6FBB9D4408B3.svg" alt=""></button>
+                    <div class="dropdown-content">
+                      <a href="#">댓글 신고하기</a>
+                      <a href="#">댓글 삭제하기</a>
+                      <a href="#">취소</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="community_post_comment_profile">
+                <img src="https://ww.namu.la/s/e76860c71a6b2edd294a24c056862bb68b8d8e9348ce91f8d0a8c1091c4917209b71e745e38c9708e644127e4cce4d96c100b211d2724d6faae2ad831b49fa515fed39e260e68a8eb083e5d58f1d6d27254ff52e02051a931edaf0c0fa7266974095450e587e1f118846273a466698d1" alt="">
+                <div class="community_post_comment_profile_info">
+                    <p class="community_post_comment_profile_info_name">{{username}}</p>
+                    <p class="community_post_comment_profile_info_hashtag">#{{hashtag}} #{{hashtag}} #{{hashtag}} #{{hashtag}}</p>
+                </div>
+            </div>
+            <div class="community_post_comment_profile_comment">
+                <p class="community_post_comment_profile_text">{{comment content}}</p>
+            </div>
+
+            <hr class="community_post_comment_line">
+
+            <form action="/" id="">
+                <div class="community_post_comment_comment">
+                    <textarea type="text" id="community_post_comment_comment_input" placeholder="답글 달기"></textarea>
+                    <input type="submit" value="" id="community_post_comment_comment_btn">
+                </div>
+            </form>
+            <hr class="community_post_comment_line">
+
+            <div class="community_post_comment_commenter_box">
+                <div class="community_post_comment_commenter">
+                    <img src="https://t1.daumcdn.net/cfile/tistory/2158293455F6709717" alt="">
+                    <p>{{username}}</p>
+                    <div class="dropdown">
+                        <button class="dropbtn"><img src="https://cdn.zeplin.io/609bad0ebfc228be481a98d2/assets/82538087-699D-4816-B213-6FBB9D4408B3.svg" alt=""></button>
+                        <div class="dropdown-content">
+                          <a href="#">댓글 신고하기</a>
+                          <a href="#">댓글 삭제하기</a>
+                          <a href="#">취소</a>
+                        </div>
+                      </div>
+                </div>
+                <p>{{comment}}</p>
+
+            </div>
+                
+
+                
+            
+            
+        </div>
+        
+
+    </body>
+</html>
