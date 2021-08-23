@@ -8,7 +8,7 @@
     left: 50%;
     position: relative;
     transform: translateX(-50%);
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(129, 129, 129);
     height: 844px;
     background-image: url('https://cdn.zeplin.io/609bad0ebfc228be481a98d2/assets/F95CFA80-1C41-42BE-8109-B9D1721A7308.svg');
     background-repeat: no-repeat;
@@ -182,6 +182,10 @@
     text-align: left;
     color: #333;
 }
+.community_post_view_report >a{
+    text-decoration: none;
+    color: black;
+}
 
 .community_post_view_comment_input_div{
     width: 350px;
@@ -223,6 +227,7 @@
     background-color: rgb(255, 255, 255);
     border: none;
     outline: none;
+    resize: none;
 }
 
 
