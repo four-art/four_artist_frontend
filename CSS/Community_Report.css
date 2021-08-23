@@ -1,0 +1,116 @@
+body{
+    background-color: #fff;
+}
+
+.Community_Report{
+    width: 390px;
+    left: 50%;
+    height: 844px;
+    position: relative;
+    transform: translateX(-50%);
+}
+
+
+
+.Community_Report_Select{
+    width: 90px;
+  height: 25px;
+  margin: 18px 151px 35px 151px;
+  font-family: 'Nanum Gothic';
+  font-size: 22px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000;
+}
+
+
+.Community_Report_Select_btn1{
+    border: none;
+    cursor: pointer;
+    width: 390px;
+    display: block;
+    text-align: center;
+    height: 49px;
+    font-family: NanumGothic;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    background-color: white;
+    text-align: left;
+    padding-left: 20px;
+}
+.Community_Report_Select_btn1:hover{
+    background-color: rgb(0, 0, 0);
+    color: white;
+
+}
+
+
+::-webkit-scrollbar{width:2px;height:2px;}
+::-webkit-scrollbar-button{width:2px;height:2px;}
+
+
+.Community_Report_text1{
+    width: 131px;
+    height: 14px;
+    font-family: 'Nanum Gothic';
+    font-size: 12px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    margin-left: 20px;
+    color: #000;
+    margin-top: 74px;
+}
+
+.Community_Report_Line{
+    width: 350px;
+    height: 1px;
+    margin: 0px 20px 0px;
+    background-color: #000;
+    border: none;
+}
+
+#Community_Report_input{
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 350px;
+    height: 226px;
+    font-family: 'Nanum Gothic';
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+    text-align: left;
+    resize: none;
+    border: none;
+    outline: none;
+}
+
+#Community_Report_button{
+    width: 350px;
+    height: 53px;
+    margin: 20px 20px 0;
+    border-radius: 8px;
+    background-color: #000;
+    font-family: 'Nanum Gothic';
+    font-size: 20px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+}

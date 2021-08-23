@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+}
+
+.community_post_comment{
+ 
+    top: 0;
+    width: 390px;
+    left: 50%;
+    position: relative;
+    transform: translateX(-50%);
+    height: 1878px;
+}
+::-webkit-scrollbar{width:2px;height:2px;}
+::-webkit-scrollbar-button{width:2px;height:2px;}
+
+.dropbtn {
+    color: white;
+    border: none;
+    cursor: pointer;
+
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 390px;
+    margin-left: -330px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    text-decoration: none;
+    padding: 10px 10px;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: rgb(156, 156, 156);}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+.community_post_comment_header{
+    display: flex;
+}
+.community_post_comment_header_text1{
+    width: 34px;
+    height: 21px;
+    margin: 10px 118px 33px 178px;
+    font-family: 'Nanum Gothic';
+    font-size: 18px;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #333;
+}
+.community_post_comment_line{
+    width: 350px;
+    height: 1px;
+    margin: 9.5px 0 5px;
+    background-color: #ededed;
+    border: none;
+}
+.community_post_comment_commenter{
+    display: flex;
+}
+
+.community_post_comment_commenter >img{
+    width: 30px;
+}
+.community_post_comment_profile{
+    display: flex;
+}
+.community_post_comment_profile > img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+
+.community_post_comment_profile_info_name{
+    width: 305px;
+    height: 19px;
+    margin: 5px 0 2px 5px;
+    font-family: 'Nanum Gothic';
+    font-size: 16px;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #333;
+}
+
+.community_post_comment_profile_info_hashtag{
+    width: 305px;
+    height: 14px;
+    margin: 2px 0 0 5px;
+    font-family: 'Nanum Gothic';
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #333;
+}
+
+.community_post_comment_profile_text{
+    width: 348px;
+    height: 16px;
+    margin: 5px 2px 9.5px 20px;
+    font-family: 'Nanum Gothic';
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+    text-align: left;
+    color: #333;
+}
+
+#community_post_comment_comment_input{
+    margin-left: 25px;
+    border: none;
+    outline: none;
+    resize: none;
+    width: 300px;
+    height: 70px;
+    font-family: 'Nanum Gothic';
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000;
+    margin-top: 15px;
+}
+
+#community_post_comment_comment_btn{
+    background-image: url('https://cdn.zeplin.io/609bad0ebfc228be481a98d2/assets/BD4C74C1-6FC6-49B1-8531-06003DC91D29.svg');
+    width: 40px;
+    height: 40px;
+    margin: 29px 0 1px 0px;
+    object-fit: contain;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.community_post_comment_commenter > img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+
+.community_post_comment_commenter >p {
+    width: 265px;
+    height: 14px;
+    margin: 13px 0 13px 5px;
+    font-family: 'Nanum Gothic';
+    font-size: 12px;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #333;
+}
+
+.community_post_comment_commenter_box >p{
+    width: 350px;
+    height: 16px;
+    margin: 10px 0 0 25px;
+    font-family: 'Nanum Gothic';
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+    text-align: left;
+    color: #333;
+}
+
+.community_post_comment_commenter_box{
+    margin-top: 15px;
+}
