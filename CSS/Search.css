@@ -9,7 +9,7 @@
     left: 50%;
     position: relative;
     transform: translateX(-50%);
-    height: 878px;
+    height: auto;
 }
 
 ::-webkit-scrollbar{width:2px;height:2px;}
@@ -44,6 +44,7 @@
     width: 390px;
     height: 1px;
     margin-top: 5px;
+    margin-bottom: 33px;
     background-color: #ededed;
     border: none;
 }

@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+}
+
+.search_keyword{
+ 
+    top: 0;
+    width: 390px;
+    left: 50%;
+    position: relative;
+    transform: translateX(-50%);
+    background-color: rgb(255, 255, 255);
+    height: auto;
+}
+
+::-webkit-scrollbar{width:2px;height:2px;}
+::-webkit-scrollbar-button{width:2px;height:2px;}
+
+
+.search_keyword_a1{
+    margin-left: 20px;
+    color: #000;
+    width: 28px;
+    height: 17px;
+    font-family: NanumGothic;
+    font-size: 15px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    text-decoration: none;
+}
+
+.search_keyword_a2{
+    margin-left: 8px;
+    color: #aaaaaa;
+    width: 28px;
+    height: 17px;
+    font-family: NanumGothic;
+    font-size: 15px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+.search_name_a2{
+    margin-left: 8px;
+    color: #000;
+    width: 28px;
+    height: 17px;
+    font-family: NanumGothic;
+    font-size: 15px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    text-decoration: none;
+}
+
+.search_name_a1{
+    margin-left: 20px;
+    color: #aaaaaa;
+    width: 28px;
+    height: 17px;
+    font-family: NanumGothic;
+    font-size: 15px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    text-decoration: none;
+}
+
+.search_no{
+    width: 154px;
+    height: 25px;
+    margin: 109px 0px 0 123px;
+    font-family: 'Nanum Gothic';
+    font-size: 22px;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 1.1px;
+    text-align: center;
+    color: #aaa;
+}
