@@ -9,7 +9,6 @@
     left: 50%;
     position: relative;
     transform: translateX(-50%);
-    background-color: rgb(129, 129, 129);
     height: 1878px;
 }
 
@@ -20,7 +19,6 @@
     width: 60px;
     margin-top: -5px;
     margin-left: 10px;
-    margin-right: 15px;
 }
 .community_filter{
     display: flex;
@@ -29,17 +27,20 @@
 }
 ::-webkit-scrollbar{width:2px;height:2px;}
 ::-webkit-scrollbar-button{width:2px;height:2px;}
-
-.community_filter > button{
+.community_filter_all{
+    margin-right: 18.5px;
+}
+.community_filter_all >button{
     height: 25px;
     color: #000000;
     cursor: pointer;
-    margin-top: 9px;
-    border: none;
-    margin-right: 20px;
-    
+    margin-top: 15px;
+    border: none;    
+    background-color: white;
+    border-radius: 5px;
+  border: solid 1px #ededed;
 }
-.community_filter >button > p{
+.community_filter_all >button >p{
     width: 53px;
   height: 16px;
   font-family: 'Nanum Gothic';
