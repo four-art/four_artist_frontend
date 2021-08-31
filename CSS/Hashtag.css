@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+}
+.hashtag{
+    top: 0;
+    width: 390px;
+    left: 50%;
+    position: relative;
+    transform: translateX(-50%);
+    background-color: rgb(100, 100, 100);
+    height: 1914px;
+}
+::-webkit-scrollbar{width:2px;height:2px;}
+::-webkit-scrollbar-button{width:2px;height:2px;}
+
+.hashtag_title{
+    width: 200px;
+  height: 25px;
+  margin: 13px 0px 30px 172px;
+  font-family: 'Nanum Gothic';
+  font-size: 22px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: right;
+  color: #000;
+
+}
+
+.hashtag_text1{
+    width: 285px;
+    height: 18px;
+    margin: 1px 0px 1px 91px;
+    font-family: 'Nanum Gothic';
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: right;
+    color: #000;
+}
+
+.hashtag_category{
+    width: 90px;
+    height: 25px;
+    margin: 36px 0px 9px 20px;
+    font-family: 'Nanum Gothic';
+    font-size: 22px;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000;
+}
+
+.hashtag_line{
+    width: 350px;
+    height: 2px;
+    margin: 0px 0px 19px 20px;
+    background-color: #000;
+    border: none;
+}
+.hashtag_list{
+    display: flex;
+    flex-flow: wrap;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.hashtag_tag{
+    width: auto;
+    height: 29px;
+    margin-right: 18px;
+    margin-bottom: 5px;
+    object-fit: contain;
+    border-radius: 5px;
+    background-color: #fff;
+    cursor: pointer;
+    border: none;
+    font-family: 'Nanum Gothic';
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000;
+}
+
+.hashtag_category > a{
+    font-size: 10px;
+    width: 30px;
+    height: 10px;
+}
+
+.hashtag_button{
+    width: 350px;
+    height: 53px;
+    background-color: black;
+    object-fit: contain;
+ 
+    font-family: 'Nanum Gothic';
+    font-size: 20px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 8px;
+    border: none;
+    margin-left: 20px;
+    margin-top: 40px;
+}
